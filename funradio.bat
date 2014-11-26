@@ -1,0 +1,1 @@
+start /max "\C:\Program_Files_(x86)\Mozilla Firefox\firefoxe.exe" http://www.funradio.be/maradio/

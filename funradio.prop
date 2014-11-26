@@ -1,0 +1,8 @@
+{
+  "modules": { 
+    "funradio": {
+      "description": "ouvre une page funradio",
+      "version": "1"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulefunradio" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulefunradio" scope="public">
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+      <item>ouvre la radio<tag>out.action.val="funradio"</tag></item>
+      <item>démarre la radio<tag>out.action.val="funradio"</tag></item>
+      <item>lance la radio<tag>out.action.val="funradio"</tag></item>
+      <item>balance la radio<tag>out.action.val="funradio"</tag></item>
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/funradio";</tag>
+  </rule> 
+</grammar>
